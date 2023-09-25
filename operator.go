@@ -28,4 +28,10 @@ func main(){
 
 	num2--
 	fmt.Println(num2)
+
+	//assignment Operator
+	num:=19
+	var result int
+	result=num
+	fmt.Println(result)
 }
