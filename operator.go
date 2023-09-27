@@ -34,4 +34,6 @@ func main(){
 	var result int
 	result=num
 	fmt.Println(result)
+
+	//logical operators
 }
