@@ -44,7 +44,4 @@ func main(){
 	default:
 		fmt.Println("Invalid day")
 	}
-
-	//with no argument
-	func
 }
