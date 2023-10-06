@@ -20,4 +20,15 @@ func main(){
 		}
 		fmt.Println(j)
 	}
+
+	//break for double for loop
+
+	for m:=0 ; m<10 ; m++{
+		for n:=0 ; n<10 ; n++ {
+			if n==8{
+				break
+			}
+			fmt.Println("m=", m, "n=", n)
+		}
+	}
 }
