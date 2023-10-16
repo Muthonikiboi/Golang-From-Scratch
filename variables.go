@@ -36,4 +36,12 @@ fmt.Println(year)//output of year willbe 2023
 //speed=4567
 //fmt.Println(speed)
 //cannot change value once declaired
+
+//EXPLICIT AND IMPLICIT VARIABLES
+//implicit
+var numbers =5
+numbers=numbers+5 234
+
+fmt.Println(numbers)
+fmt.Printf("%T \n", numbers)//this piece shows the type of the declaired variable
 }
