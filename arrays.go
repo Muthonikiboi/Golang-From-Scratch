@@ -3,8 +3,8 @@ package main
 import "fmt"
  
 func main() {
-  var arr [5] string
-  fmt.Println(arr)
+  var arry [5] string
+  fmt.Println(arry)
 
   var num[5] int
   num[1]=500
@@ -13,5 +13,16 @@ func main() {
   fmt.Println(num[4])
 
   // second method to define an array
-  arr := 
+  arr :=[3] string {"GO","C#","Javascript"}
+  
+  //get length of array in go
+  length := len(arr)
+  fmt.Println(length)
+
+  fmt.Println(arr)
+
+  //code to loop through an array
+  for i:=0; i<len(arr); i++ {
+    fmt.Println(arr[i])
+  }
 }
