@@ -24,5 +24,14 @@ func main() {
   //code to loop through an array
   for i:=0; i<len(arr); i++ {
     fmt.Println(arr[i])
+
+  //mutidimensional array
+  years :=[2][2] int {{20,12},{20,10}}
+
+  for j:=0; j<2 ;j++{
+    for k:=0 ;k<2 ;k++{
+      fmt.Println(years[j][k])
+    }
+  }
   }
 }
