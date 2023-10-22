@@ -34,4 +34,13 @@ func main() {
     }
   }
   }
+
+  //to get the sum of all the numbers in the array
+  aray := [4] int {4344,8456,9908,1089}
+  sum1:=0
+
+  for n:=0 ;n<len(aray);n++{
+    sum1 +=aray[n]
+  }
+fmt.Println(sum1)
 }

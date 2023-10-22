@@ -19,3 +19,5 @@ fmt.Println(person2)
 //accessing a struct
 fmt.Println("Pewrson1's Name:",person1.name)
 }
+
+//function inside a struct in go
