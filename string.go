@@ -12,6 +12,13 @@ func main() {
 	fmt.Printf("%c\n",message2[2])
 
 	//find the length of a string
-	stringlength := len(message1)
-	fmt.Println(len(stringlength))
+	//stringlength := len(message1)
+	//fmt.Println(len(stringlength))
+
+	// to join two strings
+	message3:= "I love"
+	message4 :="go programming language"
+
+	result := message3 + " " + message4
+	fmt.Println(result)
 }
