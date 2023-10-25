@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	var message1 ="hello world"
@@ -21,4 +24,21 @@ func main() {
 
 	result := message3 + " " + message4
 	fmt.Println(result)
+
+	//GO STRING FUNCTIONS
+	//COMPARE()
+	//CONTAINS()
+	//REPLACES()
+	//ToLower()
+	//ToUpper()
+	//Split()
+
+	//compare two stings
+	string1 :="Programiz"
+	string2 :="Programi"
+	string3 :="Programiz"
+
+	fmt.Println(strings.Compare(string1,string2))
+	fmt.Println(strings.Compare(string1,string3))
+	fmt.Println(strings.Compare(string2,string3))
 }
