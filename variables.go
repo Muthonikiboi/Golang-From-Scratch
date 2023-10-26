@@ -44,4 +44,10 @@ numbers=numbers+5 234
 
 fmt.Println(numbers)
 fmt.Printf("%T \n", numbers)//this piece shows the type of the declaired variable
+
+
+//GLOBAL AND LOCAL VARIABLES
+//GLOBAL-defined outside the function
+
+//local-defined inside the function  and can only be accessed inside the function
 }
