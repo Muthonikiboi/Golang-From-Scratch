@@ -10,9 +10,16 @@ func countDown(number int) {
   } else {
     fmt.Println("Countdown Stops")
   }
-
  }
+  //example of recursion using factorial ( )
 
+  func factorial(n int) int {
+    if n<=1{
+      return 1
+    }
+    return n * factorial(n-1)
+  }
 func main() {
   countDown(3)
-}
+    fmt.Println(factorial(5))
+  }
