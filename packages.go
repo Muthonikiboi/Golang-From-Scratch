@@ -11,6 +11,9 @@ import "fmt"
 func main(){
 	a:= 100
 	fmt.Println(a)
+	
+	//string package
+	b:="My name is Joy"
+	fmt.Println(b)
 }
 
-//string package
